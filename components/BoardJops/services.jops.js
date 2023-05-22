@@ -179,6 +179,19 @@ function updateJobApplication(id, jobApplication, callback) {
 }
 
 // Delete a job application
+// function deleteJobApplication(id, callback) {
+//   const sql = 'DELETE FROM job_applications WHERE id = ?';
+
+//   connection.query(sql, id, (err, result) => {
+//     if (err) {
+//       callback(err);
+//     } else if (result.affectedRows === 0) {
+//       callback(null, false);
+//     } else {
+//       callback(null, true);
+//     }
+//   });
+// }
 function deleteJobApplication(id, callback) {
   const sql = 'DELETE FROM job_applications WHERE id = ?';
 
