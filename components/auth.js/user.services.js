@@ -1,7 +1,7 @@
 const express = require('express');
 const bcrypt = require('bcrypt');
 const connection = require('../dbConn/databse');
-/*
+
 
 module.exports.SignUp= async (req, res) => {
     const { username, email, password } = req.body;
@@ -27,7 +27,7 @@ module.exports.SignUp= async (req, res) => {
       }
     });
   };
-/*
+
   module.exports.logIN= async (req, res) =>{
     
     const { email, password } = req.body;
@@ -59,5 +59,5 @@ module.exports.SignUp= async (req, res) => {
       }
     });
 };
-*/
+
   
